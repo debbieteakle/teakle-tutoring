@@ -37,7 +37,7 @@ const Header = () => {
 						<h3>Bookings are made between 5:30-9:30pm Monday-Friday
 						& Sundays</h3>
 						<Link to="/contact">
-					        <button>Contact</button>
+					        <button className="button">Contact</button>
 					    </Link>
 					</div>
 					<div className="header-profile">

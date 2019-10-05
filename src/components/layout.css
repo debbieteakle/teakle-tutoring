@@ -98,7 +98,49 @@ header h1, h2, h3 {
 	padding: 10px;
 	padding-bottom: 6em;
 	background: white;
+	max-width: 600px;
+	margin: auto;
 }
+
+input[type=text], input[type=email], input[type=tel], input.text, input.title, textarea, select {
+    background-color: #eee;
+    border: none;
+    width: 100%;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    font-size: 14px;
+    color: #999;
+    padding: 16px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button {
+	background: #85bf31;
+    color: #fff;
+    border: 1px solid #8fcc38;
+   padding: 8px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   font-size: 14px;
+   font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+.button:hover {
+   border-top-color: #85bf31;
+   background: #8fcc38;
+   color: #fff;
+   }
+
+.button:active {
+   border-top-color: #6fa029;
+   background: #8fcc38;
+   }
 
 
 .global-footer {
