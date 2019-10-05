@@ -8,6 +8,10 @@ body {
 	font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
+nav a {
+	color: white;
+}
+
 header {
 	background: darkgrey;
 	color: white;
@@ -90,9 +94,10 @@ header h1, h2, h3 {
 	padding: 30px;
 }
 
-.contact-section {
+.contact-form {
 	padding: 10px;
 	padding-bottom: 6em;
+	background: white;
 }
 
 
