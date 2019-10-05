@@ -29,6 +29,7 @@ header h1, h2, h3 {
 .header-title, .header-profile {
 	min-width: 300px;
 	margin: 20px auto 0px;
+	text-align: center;
 }
 
 .header-profile {
@@ -118,9 +119,9 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
 }
 
 .button {
-	background: #85bf31;
+	background: #2EA3F2;
     color: #fff;
-    border: 1px solid #8fcc38;
+    border: 1px solid #46aef3;
    padding: 8px 10px;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
@@ -132,13 +133,13 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
    }
 
 .button:hover {
-   border-top-color: #85bf31;
-   background: #8fcc38;
+   border: 1px solid #2EA3F2;
+   background: #0c7cc7;
    color: #fff;
    }
 
 .button:active {
-   border-top-color: #6fa029;
+   border: 1px solid #6fa029;
    background: #8fcc38;
    }
 
