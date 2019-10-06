@@ -15,8 +15,17 @@ const About = () => {
 				advertisements. He also enjoys editing copy written by his well-meaning wife… (how did I do?)</p>
 			</div>
 			<div className="about-subsection">
-				<h2>Main Areas</h2>
-			</div>		
+					<dl>
+	  					<dt>
+	    					Main Teaching Areas
+	  					</dt>
+						  <dd class="percentage percentage-95"><span class="text">Essay Writing</span></dd>
+						  <dd class="percentage percentage-95"><span class="text">Creative Writing</span></dd>
+						  <dd class="percentage percentage-90"><span class="text">Textual Analysis</span></dd>
+						  <dd class="percentage percentage-90"><span class="text">Film</span></dd>
+						  <dd class="percentage percentage-70"><span class="text">Adult Education</span></dd>
+					</dl>
+			</div>
 		</section>
 		);
 }
