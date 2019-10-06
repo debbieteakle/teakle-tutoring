@@ -8,16 +8,13 @@ const ListLink = props => (
 
 const Nav = () => {
 	return (
-
-			    <nav>
-			      	<ul>
-				        <ListLink to="/">Home</ListLink>
-				        <ListLink to="/about/">About</ListLink>
-				        <ListLink to="/contact/">Contact</ListLink>
-			      	</ul>
-		      	</nav>
-
-    	
+			<nav>
+			    <ul>
+				    <ListLink to="/">Home</ListLink>
+				    <ListLink to="/about/">About</ListLink>
+				    <ListLink to="/contact/">Contact</ListLink>
+			    </ul>
+		    </nav>   	
 	);
 }
 

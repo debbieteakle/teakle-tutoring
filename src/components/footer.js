@@ -3,7 +3,9 @@ import React from "react"
 
 const Footer = () => {
 	return (
-		<footer className="global-footer">Website by Debbie Teakle</footer>
+		<footer className="global-footer">
+			<p>Website by Debbie Teakle</p>
+		</footer>
 		);
 }
 

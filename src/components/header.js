@@ -34,7 +34,7 @@ const Header = () => {
 				    <div className="header-title">	
 					    <h1>Mathew Teakle</h1>
 					    <h2>Sydney HSC English Tutor</h2>
-						<h3>Bookings are made between 5:30-9:30pm Monday-Friday
+						<h3>Available Monday-Friday
 						& Sundays</h3>
 						<Link to="/contact">
 					        <button className="button">Contact</button>

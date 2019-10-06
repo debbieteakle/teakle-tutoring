@@ -1,13 +1,12 @@
 import React from "react"
-import "../components/layout.css"
-import Nav from "../components/nav.js"
+import "../components/global.css"
+import Layout from "../components/layout.js"
+
 
 
 
 const ContactPage = () => (
-  <div className = "container">
-
-    <Nav />
+  <Layout>
     
     <div className="contact-form">
     	<h3>To enquire, fill out this form and Mathew will get back to you.</h3>
@@ -54,10 +53,10 @@ const ContactPage = () => (
 					<input className="button" type="submit" value="Submit" />
 				</p>
 			</form>
+
+			
 	</div>
     
-
-
-  </div>
+	</Layout>
 )
 export default ContactPage;

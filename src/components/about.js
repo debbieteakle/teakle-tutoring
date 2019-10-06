@@ -1,8 +1,9 @@
 import React from "react"
 
+
 const About = () => {
 	return (
-		<div className="about-section">
+		<section className="about-section" id="about">
 			<div className="about-subsection">
 				<h2>About Mathew</h2>
 				<p>B.A. B.Ed. University of New South Wales</p>
@@ -14,11 +15,9 @@ const About = () => {
 				advertisements. He also enjoys editing copy written by his well-meaning wife… (how did I do?)</p>
 			</div>
 			<div className="about-subsection">
-			<h2>Main Areas</h2>
-			</div>
-
-
-		</div>
+				<h2>Main Areas</h2>
+			</div>		
+		</section>
 		);
 }
 
