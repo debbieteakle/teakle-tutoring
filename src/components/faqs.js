@@ -20,7 +20,7 @@ const FAQs = () => {
 				<article className="faq">
 					<h3>What do I need for online tutoring?</h3>
 					<div className="faq-icon"><FaLaptop /></div>
-					<p>A Skype account (See ‘What do I need to start using Skype‘) and a microphone and webcam (most laptops have them already)</p>
+					<p>A Skype account and a computer with a microphone and webcam (most laptops have them already).</p>
 				</article>
 				<article className="faq">
 					<div className="faq-icon"><FaCalendarTimes /></div>
@@ -30,7 +30,7 @@ const FAQs = () => {
 				<article className="faq">
 					<div className="faq-icon"><FaUserFriends /></div>
 					<h3>Do you tutor in person?</h3>
-					<p>Yes! My home office is a short walk from Berowra Train Station. It has all the essentials i.e. air conditioning and WiFi.</p>
+					<p>Yes! My home office is a short walk from Berowra Train Station. It's air conditioned and you can use my WiFi.</p>
 				</article>
 				<article className="faq">
 					<div className="faq-icon"><FaClock /></div>
