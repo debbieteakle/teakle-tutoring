@@ -1,9 +1,10 @@
 import React from "react"
-import { FaUserGraduate } from 'react-icons/fa';
+import { FaLaptop } from 'react-icons/fa';
 import { FaCreditCard } from 'react-icons/fa';
 import { FaCalendarTimes} from 'react-icons/fa';
 import { FaUserFriends} from 'react-icons/fa';
 import { FaClock} from 'react-icons/fa';
+import { FaUserGraduate } from 'react-icons/fa';
 
 
 const FAQs = () => {
@@ -15,6 +16,11 @@ const FAQs = () => {
 					<h3>How do I pay?</h3>
 					<div className="faq-icon"><FaCreditCard /></div>
 					<p>I'll send you an invoice via email. Invoices be paid safely and securely online via credit card or via direct debit transfer.</p>
+				</article>
+				<article className="faq">
+					<h3>What do I need for online tutoring?</h3>
+					<div className="faq-icon"><FaLaptop /></div>
+					<p>A Skype account (See ‘What do I need to start using Skype‘) and a microphone and webcam (most laptops have them already)</p>
 				</article>
 				<article className="faq">
 					<div className="faq-icon"><FaCalendarTimes /></div>
@@ -42,5 +48,3 @@ const FAQs = () => {
 }
 
 export default FAQs;
-
-

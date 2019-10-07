@@ -8,6 +8,10 @@ body {
 	font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
+.layout {
+	padding-bottom: 4em;
+}
+
 nav a {
 	color: white;
 }
@@ -279,5 +283,7 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
 	padding-top: 1.5em;
 	text-align: center;
 	z-index: 3;
+	position: fixed;
+	bottom: 0;
 }
 
