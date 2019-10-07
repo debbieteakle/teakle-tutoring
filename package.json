@@ -1,5 +1,5 @@
 {
-  "name": "Mathew Teakle Sydney HSC English Tutor",
+  "name": "teakle-tutoring",
   "private": true,
   "description": "HSC English online tutoring",
   "version": "0.1.0",
@@ -11,7 +11,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby gh-pages -d public"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.15.28",
