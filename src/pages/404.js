@@ -1,0 +1,24 @@
+import React from "react"
+import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
+import "../components/global.css"
+import Layout from "../components/layout.js"
+
+
+const PageNotFound = () => {
+	return (		
+		   	<Layout >
+		   	  	<Helmet>
+		          <meta charSet="utf-8" />
+		          <title>404 Page Not Found</title>
+		          <link rel="canonical" href="https://teakle.com.au/404" />
+				</Helmet>
+			  	<section className="page-not-found">
+					<h2>404 Page Not Found</h2>
+					<p><Link to="/">Go to home page</Link></p>
+				</section>
+
+		  	</Layout>	
+		);
+}
+export default PageNotFound

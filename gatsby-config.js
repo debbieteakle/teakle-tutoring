@@ -23,6 +23,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
+    },
+    {
     resolve: "gatsby-plugin-react-svg",
     options: {
       rule: {

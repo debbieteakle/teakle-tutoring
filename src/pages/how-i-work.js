@@ -1,4 +1,5 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 import "../components/global.css"
 import Layout from "../components/layout.js"
 
@@ -6,6 +7,11 @@ import Layout from "../components/layout.js"
 const WorkPage = () => {
 	return (		
 		   	<Layout >
+		   	  	<Helmet>
+		          <meta charSet="utf-8" />
+		          <title>How I Work</title>
+		          <link rel="canonical" href="https://teakle.com.au/how-i-work" />
+				</Helmet>
 			  	<section className="work">
 					<h2>How I Work</h2>
 						<article>

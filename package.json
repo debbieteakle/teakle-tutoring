@@ -1,21 +1,23 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "Mathew Teakle Sydney HSC English Tutor",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "HSC English online tutoring",
   "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://debbieteakle.github.io/teakle-tutoring",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "deploy": "gatsby gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.15.28",
     "gatsby-background-image": "^0.8.15",
     "gatsby-image": "^2.2.23",
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-react-svg": "^2.1.2",
@@ -28,6 +30,7 @@
     "react-icons": "^3.7.0"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },
   "repository": {

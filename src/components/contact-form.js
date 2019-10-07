@@ -8,7 +8,7 @@ const ContactForm = () => {
 			<form action="https://service.capsulecrm.com/service/newlead" method="post">
 				<p>
 					<input name="FORM_ID" type="hidden" value="e2106720-ab28-4d02-bf68-5ac6bd5b0a9e" /> 
-					<input name="COMPLETE_URL" type="hidden" value="http://teakle.com.au" /> 
+					<input name="COMPLETE_URL" type="hidden" value="https://teakle.com.au" /> 
 					<input name="REVIEW_ID" type="hidden" value="217933" />
 				</p>
 				<p>
