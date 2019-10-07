@@ -5,6 +5,7 @@ import Enrolments from "../components/enrolments.js"
 import Credentials from "../components/credentials.js"
 import Testimonials from "../components/testimonials.js"
 import About from "../components/about.js"
+import FAQs from "../components/faqs.js"
 import Layout from "../components/layout"
 
 
@@ -17,6 +18,7 @@ const IndexPage = () => {
 			    <Credentials />
 		   		<Testimonials />
 		   		<About />
+		   		<FAQs />
 		  	</Layout>	
 		);
 }

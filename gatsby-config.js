@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Mathew Teakle Sydney English Tutor`,
     siteUrl: `https://www.teakle.com.au`,
-    description: `HSC online tutoring`,
+    description: `Online High School HSC English tutoring`,
   },
 
   plugins: [
@@ -22,6 +22,29 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+      rule: {
+        include: /images/ 
+      },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Oswald`,
+            variants: [`500`, `700`]
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    }
   ],
 }
 

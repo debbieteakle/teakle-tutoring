@@ -25,6 +25,7 @@ const About = () => {
 						  <dd class="percentage percentage-90"><span class="text">Film</span></dd>
 						  <dd class="percentage percentage-70"><span class="text">Adult Education</span></dd>
 					</dl>
+					
 			</div>
 		</section>
 		);
