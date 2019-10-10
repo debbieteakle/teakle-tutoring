@@ -31,7 +31,8 @@ const FAQs = () => {
 				<article className="faq">
 					<div className="faq-icon"><FaUserFriends /></div>
 					<h3>Do you tutor in person?</h3>
-					<p>Yes! My home office is a short walk from Berowra Train Station. It's air conditioned, has a nice view of my backyard and you can use my WiFi.</p>
+					<p>Yes! My home office is a five minute walk from a train station. We have an air conditioned office, with a nice view of the backyard and you can use our WiFi and charge your phone. 
+					During lessons we might get an unannounced visit from our dog (Bear) and it's very likely one of the kids will be playing in the backyard as well. </p>
 				</article>
 				<article className="faq">
 					<div className="faq-icon"><FaClock /></div>
