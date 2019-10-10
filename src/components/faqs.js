@@ -15,17 +15,18 @@ const FAQs = () => {
 				<article className="faq">
 					<h3>How do I pay?</h3>
 					<div className="faq-icon"><FaCreditCard /></div>
-					<p>I'll send you an invoice via email which will have a link so you can pay safely and securely online via credit card or via direct debit transfer.</p>
+					<p>I'll send an invoice via email with a link, so you can pay securely online via credit card or direct debit transfer.
+</p>
 				</article>
 				<article className="faq">
 					<h3>What do I need for online tutoring?</h3>
 					<div className="faq-icon"><FaLaptop /></div>
-					<p>A Skype account and a computer with a microphone and webcam (most laptops have them inbuilt). You'll also need a Google account with access to Google Docs.</p>
+					<p>A Skype account with a microphone and webcam. You'll also need a Google account with access to Google Docs.</p>
 				</article>
 				<article className="faq">
 					<div className="faq-icon"><FaCalendarTimes /></div>
 					<h3>What if I can't attend my lesson?</h3>
-					<p>No problem, these things happen. Let me know which lesson you can't attend and we'll reschedule it.</p>
+					<p>No problem, these things happen. Let me know which lesson you can't attend and we'll reschedule it. I don't make my students pay for lessons they don't have. </p>
 				</article>
 				<article className="faq">
 					<div className="faq-icon"><FaUserFriends /></div>
@@ -40,7 +41,7 @@ const FAQs = () => {
 				<article className="faq">
 					<div className="faq-icon"><FaUserGraduate /></div>
 					<h3>Are you a qualified teacher?</h3>
-					<p>Yes, I have a Bachelor of Arts/Bachelor of Education from the University of New South Wales.</p>
+					<p>I have a Bachelor of Arts/Bachelor of Education (English Literature) from the University of New South Wales.</p>
 				</article>
 			</div>
 		</section>

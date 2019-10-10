@@ -18,7 +18,17 @@ const WorkPage = () => {
 					<h2>How I Work</h2>
 						<article>
 							<h3>Initial consultation</h3>
-							<p>When you email me via my contact form, I'll give you a call so we can discuss the goals of the student.</p>
+							<p>When you email me via my contact form, I'll give you a call so we can discuss your needs.</p>
+						</article>
+						<article>
+							<h3>How I Teach</h3>
+							<p>I tutor responsively, so there's no set curriculum (that's for school).</p>
+
+							<p>I'll teach you the crucial difference between answering an essay question and addressing an essay question. 
+							I'll teach you creative writing. I'll teach you techniques like Anaphora, Epistrophe, Polysyndeton and Asyndeton. 
+							I'll even teach you what Anadiplosis is  - so that when you write, you write well. 
+							I'll get you beyond retelling and into close analysis of texts. It's fun, it's crazy, it's amazing and it's cool. 
+							Imagine that - no more teachers writing 'retell' in the margins of your essays...</p>
 						</article>
 						<article>
 							<h3>Apps I Use</h3>
