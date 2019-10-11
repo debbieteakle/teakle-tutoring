@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Mathew Teakle Sydney English Tutor`,
+    title: `Mathew Teakle Sydney HSC English Tutor`,
     siteUrl: `https://www.teakle.com.au`,
     description: `Online High School HSC English tutoring`,
   },
@@ -14,6 +14,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
