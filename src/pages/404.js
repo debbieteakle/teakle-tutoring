@@ -14,7 +14,8 @@ const PageNotFound = () => {
 		          <link rel="canonical" href="https://teakle.com.au/404" />
 				</Helmet>
 			  	<section className="page-not-found">
-					<h2>404 Page Not Found</h2>
+					<h2>Sorry!</h2>
+					<p>The page you're looking for either has been moved, been renamed or doesn't exist.</p>
 					<p><Link to="/">Go to home page</Link></p>
 				</section>
 
