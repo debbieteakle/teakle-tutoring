@@ -40,7 +40,7 @@ const WorkPage = () => {
 						</article>
 						<article>
 							<h3>When I Work</h3>
-							<p>Monday - Friday and Sunday</p>
+							<p>Monday - Friday and Sunday.</p>
 						</article>
 				</section>
 

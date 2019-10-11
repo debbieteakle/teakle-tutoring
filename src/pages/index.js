@@ -18,6 +18,9 @@ const IndexPage = () => {
 		          <meta charSet="utf-8" />
 		          <title>Mathew Teakle | English Tutor</title>
 		          <link rel="canonical" href="https://teakle.com.au" />
+		          <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, 
+		          Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, 
+		          High School English, High School Literacy Tutor, Essays, Creative Writing" />
 		          <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
 		          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
 		        </Helmet>
