@@ -1,10 +1,29 @@
 import React from "react"
+import Img from "gatsby-image"
+import { graphql, useStaticQuery } from "gatsby"
 
 const ContactForm = () => {
+
+	const profilepic = useStaticQuery(graphql`
+		query ContactImages {
+  			profile: file(relativePath: {eq: "mat-teakle-sydney-english-tutor.png"}) {
+			    id
+    			childImageSharp {
+      				fluid(maxWidth: 100, quality: 100) {
+        				...GatsbyImageSharpFluid
+      				}
+    			}
+  			},
+		}
+		`)
+
 	return (
 		<section className="contact-form-section">
+
 			<div className="contact-form">
-    		<h3>To enquire, fill out this form and Mathew will get back to you.</h3>
+			<h2>Contact Me</h2>
+    		<Img className="contact-profile" fluid={profilepic.profile.childImageSharp.fluid} />
+    		<h3>I'll be happy to answer your questions.</h3>
 			<form action="https://service.capsulecrm.com/service/newlead" method="post">
 				<p>
 					<input name="FORM_ID" type="hidden" value="5254ff48-69b4-453c-b271-e418bf866376" /> 
