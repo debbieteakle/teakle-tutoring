@@ -14,11 +14,12 @@
     "deploy": "gh-pages -d public"
   },
   "dependencies": {
-    "gatsby": "^2.15.28",
+    "gatsby": "^2.19.19",
     "gatsby-background-image": "^0.8.15",
     "gatsby-image": "^2.2.23",
     "gatsby-plugin-google-analytics": "^2.1.21",
     "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.2.41",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.10",
     "gatsby-plugin-react-svg": "^2.1.2",
