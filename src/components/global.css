@@ -97,6 +97,10 @@ header h1, h2, h4 {
     background: #f5f5f5;
 }
 
+.call-to-action {
+  text-align: center;
+}
+
 .faq-icon {
 	font-size: 2em;
 	padding: 0.5em;
