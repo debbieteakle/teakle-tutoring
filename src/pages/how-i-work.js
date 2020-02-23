@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import "../components/global.css"
 import Layout from "../components/layout.js"
+import { Link } from "gatsby"
 
 
 const WorkPage = () => {
@@ -22,9 +23,9 @@ const WorkPage = () => {
 						</article>
 						<article>
 							<h3>How I Teach</h3>
-							<p>I tutor responsively, so there's no set curriculum (that's for school).</p>
+							<p>I tutor responsively, so there&#39;s no set curriculum (that &#39;s for school).</p>
 
-							<p>I'll teach you the crucial difference between answering an essay question and addressing an essay question. 
+							<p>I&#39;ll teach you the crucial difference between answering an essay question and addressing an essay question. 
 							I'll teach you creative writing. I'll teach you techniques like Anaphora, Epistrophe, Polysyndeton and Asyndeton. 
 							I'll even teach you what Anadiplosis is  - so that when you write, you write well. 
 							I'll get you beyond retelling and into close analysis of texts. It's fun, it's crazy, it's amazing and it's cool. 
@@ -41,6 +42,9 @@ const WorkPage = () => {
 						<article>
 							<h3>When I Work</h3>
 							<p>Monday - Friday and Sunday.</p>
+						</article>
+						<article>
+							<p>Read what Mat&#39;s students <Link to="/testimonials">have to say.</Link></p>
 						</article>
 				</section>
 
