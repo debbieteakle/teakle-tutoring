@@ -7,7 +7,7 @@ const ContactForm = () => {
     		<h3>To enquire, fill out this form and Mathew will get back to you.</h3>
 			<form action="https://service.capsulecrm.com/service/newlead" method="post">
 				<p>
-					<input name="FORM_ID" type="hidden" value="e2106720-ab28-4d02-bf68-5ac6bd5b0a9e" /> 
+					<input name="FORM_ID" type="hidden" value="5254ff48-69b4-453c-b271-e418bf866376" /> 
 					<input name="COMPLETE_URL" type="hidden" value="https://teakle.com.au" /> 
 					<input name="REVIEW_ID" type="hidden" value="217933" />
 				</p>
@@ -43,6 +43,7 @@ const ContactForm = () => {
 					
 				</p>
 				<p>
+					<input id="comment-field" type="text" name="COMMENT" />
 					<input name="CUSTOMFIELD[Status]" type="hidden" value="pending" /> 
 					<input name="CUSTOMFIELD[Lead Source]" type="hidden" value="website" /> 
 					<input className="button" type="submit" value="Submit" />

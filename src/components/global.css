@@ -278,6 +278,10 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
     box-sizing: border-box;
 }
 
+#comment-field {
+  display: none;
+}
+
 .button {
 	background: #2EA3F2;
     color: #fff;
