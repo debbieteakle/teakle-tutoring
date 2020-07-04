@@ -12,7 +12,6 @@ module.exports = {
   },
 
   plugins: [
-    `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,

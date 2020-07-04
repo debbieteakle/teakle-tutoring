@@ -289,6 +289,10 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
     box-sizing: border-box;
 }
 
+::placeholder {
+    font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
 #comment-field {
   display: none;
 }
