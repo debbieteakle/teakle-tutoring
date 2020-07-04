@@ -21,9 +21,9 @@ const ContactForm = () => {
 		<section className="contact-form-section">
 
 			<div className="contact-form">
-			<h1>Contact Me</h1>
+			<h1>Contact Mathew about English Tuition</h1>
     		<Img className="contact-profile" fluid={profilepic.profile.childImageSharp.fluid} />
-    		<h3>I'll be happy to answer your questions.</h3>
+    		<h3>Want to learn more? Mat would love to hear from you. Provide some student details and he'll be in touch to discuss your goals.</h3>
 			<form action="https://service.capsulecrm.com/service/newlead" method="post">
 				<p>
 					<input name="FORM_ID" type="hidden" value="5254ff48-69b4-453c-b271-e418bf866376" /> 

@@ -36,7 +36,7 @@ const Header = () => {
 					    <h2>Sydney HSC English Tutor</h2>
 						<h4>Available Sunday - Friday  |  Online or In Person</h4>
 						<Link to="/contact">
-					        <button className="button">Contact</button>
+					        <button className="button">Enquire Now</button>
 					    </Link>
 					</div>
 					<div className="header-profile">

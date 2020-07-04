@@ -301,11 +301,11 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
 	background: #2EA3F2;
     color: #fff;
     border: 1px solid #46aef3;
-   padding: 8px 10px;
+   padding: 12px;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
    border-radius: 8px;
-   font-size: 14px;
+   font-size: 20px;
    font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
    text-decoration: none;
    vertical-align: middle;
