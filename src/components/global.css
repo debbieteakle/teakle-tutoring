@@ -27,7 +27,7 @@ header {
 	color: white;
 }
 
-header h1, h2, h4 {
+header, h1, h2, h4 {
 	text-align: center;
 }
 
@@ -73,7 +73,7 @@ header h1, h2, h4 {
 	background: white;
 }
 
-.testimonials-section h2, .faq-section h2 {
+.testimonials-section h1, .faq-section h2 {
 	font-family: 'Oswald','PT Sans',Helvetica,Arial,Lucida,sans-serif;
 	text-align: center;
 	font-weight: 700;

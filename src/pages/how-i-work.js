@@ -16,7 +16,7 @@ const WorkPage = () => {
 		          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
 				</Helmet>
 			  	<section className="work">
-					<h2>How I Work</h2>
+					<h1>How I Work</h1>
 						<article>
 							<h3>Initial consultation</h3>
 							<p>When you email me via my contact form, I'll give you a call so we can discuss your needs.</p>
