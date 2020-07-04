@@ -10,7 +10,7 @@ const TestimonialsPage = () => {
 		   	<Layout >
 		   	  	<Helmet>
 		          <meta charSet="utf-8" />
-		          <title>HSC Student Testimonials</title>
+		          <title>HSC English Success Stories | Read Student Testimonials</title>
 		          <link rel="canonical" href="https://teakle.com.au/testimonials" />
 		          <meta name="description" content="Read what HSC English students have to say about Mathew's High School English tuition after getting their HSC results." />
 				</Helmet>
