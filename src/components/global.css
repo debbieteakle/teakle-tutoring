@@ -8,9 +8,9 @@ body {
 	font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
-.layout {
+/*.layout {
 	padding-bottom: 4em;
-}
+}*/
 
 nav {
 	background: #293946;
@@ -22,10 +22,10 @@ nav a {
 	color: white;
 }
 
-header {
+/*header {
 	background: darkgrey;
 	color: white;
-}
+}*/
 
 header, h1, h2, h4 {
 	text-align: center;

@@ -29,12 +29,12 @@ const Header = () => {
 		`)
 
 	return (
-			<header>
+			<header className="bg-gray-800	text-white">
 				<BackgroundImage className="header-background" fluid={data.background.childImageSharp.fluid}>
 				    <div className="header-title">	
-					    <h1>Mathew Teakle</h1>
-					    <h2>Sydney HSC English Tutor</h2>
-						<h4>Available Sunday - Friday  |  Online or In Person</h4>
+					    <h1 className="text-4xl">Mathew Teakle</h1>
+					    <h2 className="text-2xl">Sydney HSC English Tutor</h2>
+						<h4 className="text-lg">Available Sunday - Friday  |  Online or In Person</h4>
 						<Link to="/contact">
 					        <button className="button">Enquire Now</button>
 					    </Link>
