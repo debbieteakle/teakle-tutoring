@@ -27,9 +27,9 @@ nav a {
 	color: white;
 }*/
 
-header, h1, h2, h4 {
+/*header, h1, h2, h4 {
 	text-align: center;
-}
+}*/
 
 .header-background {
 	display: flex;
@@ -226,10 +226,10 @@ dt {
   width: 100%;
 }
 
-.work {
+/*.work {
 	padding: 50px 10px 10px 10px;
 	background: white;
-}
+}*/
 
 .contact-form-section {
 	/*background-color: #293946;

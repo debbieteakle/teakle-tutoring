@@ -15,14 +15,14 @@ const WorkPage = () => {
 		          <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
 		          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
 				</Helmet>
-			  	<section className="work">
-					<h1>How I Work</h1>
-						<article>
-							<h3>Initial consultation</h3>
+			  	<section className="pt-8 sm:mx-20 mx-5 content-center ">
+					<h1 className="text-4xl">How I Work</h1>
+						<article className="py-4">
+							<h2 className="text-xl">Initial consultation</h2>
 							<p>When you email me via my contact form, I'll give you a call so we can discuss your needs.</p>
 						</article>
-						<article>
-							<h3>How I Teach</h3>
+						<article className="pb-4">
+							<h2 className="text-xl">How I Teach</h2>
 							<p>I tutor responsively, so there&#39;s no set curriculum (that &#39;s for school).</p>
 
 							<p>I&#39;ll teach you the crucial difference between answering an essay question and addressing an essay question. 
@@ -31,16 +31,16 @@ const WorkPage = () => {
 							I'll get you beyond retelling and into close analysis of texts. It's fun, it's crazy, it's amazing and it's cool. 
 							Imagine that - no more teachers writing 'retell' in the margins of your essays...</p>
 						</article>
-						<article>
-							<h3>Apps I Use</h3>
+						<article className="pb-4">
+							<h2 className="text-xl">Apps I Use</h2>
 							<p>Google Docs, Skype for video calls and messaging, Gmail and WaveApps for invoicing.</p>
 						</article>
-						<article>
-							<h3>Where I Work</h3>
+						<article  className="pb-4">
+							<h2 className="text-xl">Where I Work</h2>
 							<p>I work from my home office in Berowra, in the Northern Suburbs of Sydney.</p>
 						</article>
-						<article>
-							<h3>When I Work</h3>
+						<article className="pb-4">
+							<h2 className="text-xl">When I Work</h2>
 							<p>Monday - Friday and Sunday.</p>
 						</article>
 						<article>
