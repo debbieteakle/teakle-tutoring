@@ -86,7 +86,7 @@ nav {
 }*/
 
 .testimonial-icon {
-    background: #f5f5f5;
+  /*  background: #f5f5f5;*/
     padding: 1em;
     position: absolute;
     z-index: 2;
@@ -110,11 +110,11 @@ nav {
     left: 47%;
     margin-left: -16px;
     border-radius: 100%;
-    background: #f5f5f5;
+  /*  background: #f5f5f5;*/
 }
 
 .testimonial, .faq {
-	background: #F5F5F5;
+	/*background: #F5F5F5;*/
 	margin: 30px 10px;
 	/*padding: 30px;*/
 	position: relative;
@@ -141,7 +141,7 @@ nav {
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 50px 10px 10px 10px;
-	background: #f5f5f5;
+/*	background: #f5f5f5;*/
 	color: #666;
 }
 

@@ -6,7 +6,7 @@ const Testimonials = () => {
 		<section className="pt-4">
 			<h1 className="text-center text-2xl">HSC Student Testimonials</h1>
 			<div className="flex flex-wrap justify-center">
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Learning English from you has both boosted my confidence and my understanding of English. 
 					Before, I was unsure of what I was doing or how to make sense of the new English syllabus, but after I learnt from you, I had a whole different perspective on
@@ -15,7 +15,7 @@ const Testimonials = () => {
 					<p className="testimonial-author">Venkat</p>
 					<p className="testimonial-author-details">St Francis Xavier’s College, Hamilton, HSC 2019</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Mat was my tutor for years 11 and 12 and it was one of the best decisions I made. He helped improve my English skills so much. 
 					His wealth of knowledge made me really appreciate the nature of this subject. 
@@ -23,13 +23,13 @@ const Testimonials = () => {
 					<p className="testimonial-author">Stella</p>
 					<p className="testimonial-author-details">Tamworth, HSC 2019</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">… thank you for your help with English. I really appreciate the effort you put in and I’ll be sure to recommend you to other students if that’s okay with you!</div>
 					<p className="testimonial-author">Annie</p>
 					<p className="testimonial-author-details">Tara Anglican School for Girls, HSC 2018</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Hi Mat! First of all I'd like to thank myself for choosing you as my English tutor for three years. My decision was an excellent one and without it, 
 					I would have chosen a lesser tutor. I'd also like to thank my parents for having me in the first place so I could grow up to choose a great tutor and get a band 6 for English Advanced.
@@ -38,7 +38,7 @@ const Testimonials = () => {
 					<p className="testimonial-author">Kevin</p>
 					<p className="testimonial-author-details">Sydney, HSC 2017</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Joining online tutoring with Mat in my final year of school was one of the best decisions I made in Year 12. 
 					Originally, I was a little apprehensive joining online tutoring through Skype, however the flexibility and comfort of tutoring in your own home (especially in my pyjamas) proved to be 
@@ -47,7 +47,7 @@ const Testimonials = () => {
 					<p className="testimonial-author">Bec</p>
 					<p className="testimonial-author-details">Riverside Girls High, HSC 2017</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Hi Mat, it’s Abhi. I just wanted to let you know that I got a 92 for English! I also got a 98.55 atar, which I’m so over the moon about. 
 					Anyway, thank you so much for all the help, advice and guidance that you’ve given me over the last few months. As well as all the essays you’ve marked, emails and discussions! 
@@ -55,13 +55,13 @@ const Testimonials = () => {
 					<p className="testimonial-author">Abhi</p>
 					<p className="testimonial-author-details">HSC 2014</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Mathew is an absolutely amazing tutor who allowed me to reach my full potential in English and pulled me from the pit of band 3 into the luxurious band 5 category.</div>
 					<p className="testimonial-author">Mohamad</p>
 					<p className="testimonial-author-details">Georges River Grammar, HSC 2014</p>
 				</article>
-				<article className="testimonial">
+				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon"><FaQuoteRight /></span>
 					<div className="testimonial-description">Mat was a phenomenal tutor who helped me during my HSC in 2011. He has a wealth of knowledge and genuinely cares about the students he teaches. 
 					The passion, energy, and insights he brought to each lesson has shaped the way I write and think about English as a subject and language. Even whilst studying engineering at university, 
