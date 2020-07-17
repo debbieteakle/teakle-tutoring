@@ -94,7 +94,7 @@ nav {
     left: 47%;
     margin-left: -16px;
     border-radius: 100%;
-    background: #f5f5f5;
+   /* background: #f5f5f5;*/
 }
 
 .call-to-action {
@@ -124,17 +124,17 @@ nav {
 }
 
 
-.testimonial-author {
+/*.testimonial-author {
 	font-style: italic;
 	font-weight: bold;
 	margin-right: 1em;
 	font-size: smaller;
 	line-height: 0.5em;
-}
+}*/
 
-.testimonial-author-details {
+/*.testimonial-author-details {
 	font-size: smaller;
-}
+}*/
 
 .about-section {
 	display: flex;
