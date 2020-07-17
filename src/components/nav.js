@@ -8,7 +8,7 @@ const ListLink = props => (
 
 const Nav = () => {
 	return (
-			<nav className="h-12 bg-gray-800 p-4">
+			<nav className="h-12 bg-gray-800 p-4 text-center">
 			    <ul>
 				    <ListLink to="/">Home</ListLink>
 				    <ListLink to="/how-i-work/">How I Work</ListLink>
