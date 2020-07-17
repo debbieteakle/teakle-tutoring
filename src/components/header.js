@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
+import Button from "./button.js"
 
 
 const Header = () => {
@@ -36,7 +37,7 @@ const Header = () => {
 					    <h2 className="text-2xl">Sydney HSC English Tutor</h2>
 						<h4 className="text-lg">Available Sunday - Friday  |  Online or In Person</h4>
 						<Link to="/contact">
-					        <button className="button">Enquire Now</button>
+					        <Button name="Enquire Now"/>
 					    </Link>
 					</div>
 					<div className="header-profile">

@@ -1,6 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import { graphql, useStaticQuery } from "gatsby"
+import Button from "./button.js"
 
 const ContactForm = () => {
 
@@ -65,7 +66,7 @@ const ContactForm = () => {
 					<input id="comment-field" type="text" name="COMMENT" />
 					<input name="CUSTOMFIELD[Status]" type="hidden" value="pending" /> 
 					<input name="CUSTOMFIELD[Lead Source]" type="hidden" value="website" /> 
-					<input className="button" type="submit" value="Submit" />
+					<Button name="Submit" type="submit" value="Submit" />
 				</p>
 			</form>		
 		</div>

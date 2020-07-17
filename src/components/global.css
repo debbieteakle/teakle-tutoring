@@ -42,9 +42,9 @@ nav {
 	text-align: center;
 }
 
-.header-profile {
-	/*margin: 20px auto 0px;*/
-}
+/*.header-profile {
+	margin: 20px auto 0px;
+}*/
 
 /*.enrolments {
 	background-color: #e09900;
@@ -297,7 +297,7 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
   display: none;
 }
 
-.button {
+/*.button {
 	background: #2EA3F2;
     color: #fff;
     border: 1px solid #46aef3;
@@ -309,8 +309,8 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
    font-family: 'PT Sans',Helvetica,Arial,Lucida,sans-serif;
    text-decoration: none;
    vertical-align: middle;
-   }
-
+   }*/
+/*
 .button:hover {
    border: 1px solid #2EA3F2;
    background: #0c7cc7;
@@ -321,7 +321,7 @@ input[type=text], input[type=email], input[type=tel], input.text, input.title, t
    border: 1px solid #6fa029;
    background: #8fcc38;
    }
-
+*/
 
 
 
