@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
+  <li className="inline-block mr-4">
+    <Link className="text-white" to={props.to}>{props.children}</Link>
   </li>
 )
 
 const Nav = () => {
 	return (
-			<nav>
+			<nav className="h-12 bg-gray-800 p-4">
 			    <ul>
 				    <ListLink to="/">Home</ListLink>
 				    <ListLink to="/how-i-work/">How I Work</ListLink>
