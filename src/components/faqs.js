@@ -9,9 +9,9 @@ import { FaUserGraduate } from 'react-icons/fa';
 
 const FAQs = () => {
 	return (
-		<section className="faq-section">
-			<h2>FAQs</h2>
-			<div className="faq-list">
+		<section className="pt-4">
+			<h2 className="text-center text-2xl">FAQs</h2>
+			<div className="flex flex-wrap justify-center">
 				<article className="faq">
 					<h3>How do I pay?</h3>
 					<div className="faq-icon"><FaCreditCard /></div>

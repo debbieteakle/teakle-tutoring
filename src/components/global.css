@@ -68,22 +68,22 @@ nav {
 	font-weight: normal;
 }*/
 
-.testimonials-section, .faq-section {
+/*.testimonials-section, .faq-section {
 	padding: 50px 10px 10px 10px;
 	background: white;
-}
+}*/
 
-.testimonials-section h1, .faq-section h2 {
+/*.testimonials-section h1, .faq-section h2 {
 	font-family: 'Oswald','PT Sans',Helvetica,Arial,Lucida,sans-serif;
 	text-align: center;
 	font-weight: 700;
 }
-
-.testimonials-list, .faq-list {
+*/
+/*.testimonials-list, .faq-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-}
+}*/
 
 .testimonial-icon {
     background: #f5f5f5;
