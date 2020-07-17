@@ -2,8 +2,8 @@ import React from "react"
 
 const Enrolments = () => {
 	return (
-		<section className="enrolments">
-			<p>Accepting New Enrolments Now…</p>
+		<section className="text-center bg-orange-400">
+			<p className="leading-loose m-0">Accepting New Enrolments Now…</p>
 		</section>
 		);
 }
