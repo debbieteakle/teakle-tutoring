@@ -35,7 +35,7 @@ const Header = () => {
 				    <div className="header-title">	
 					    <h1 className="text-4xl">Mathew Teakle</h1>
 					    <h2 className="text-2xl">Sydney HSC English Tutor</h2>
-						<h4 className="text-lg">Available Sunday - Friday  |  Online or In Person</h4>
+						<p className="text-lg p-6">Available Sunday - Friday  |  Online or In Person</p>
 						<Link to="/contact">
 					        <Button name="Enquire Now"/>
 					    </Link>
