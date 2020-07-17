@@ -57,7 +57,7 @@ nav {
 	line-height: 2em;
 }
 
-.credentials {
+/*.credentials {
 	text-align: center;
 	color: white;
 	background: #293946;
@@ -66,7 +66,7 @@ nav {
 
 .credentials h1, h2, h4 {
 	font-weight: normal;
-}
+}*/
 
 .testimonials-section, .faq-section {
 	padding: 50px 10px 10px 10px;
