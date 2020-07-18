@@ -23,10 +23,10 @@ const BlogPage = ({data}) => {
             <h1 className="text-4xl">Latest Posts</h1>
             {data.allMarkdownRemark.edges.map(post => (
                 <div className="my-10" key = {post.node.id}>
-                    <h2 className="text-xl">{post.node.frontmatter.title}</h2>
+                    <h2 className="text-xl"><Link to={post.node.frontmatter.path}>{post.node.frontmatter.title}</Link></h2>
                     <small>Posted by { post.node.frontmatter.author } {'  '} 
                       on { post.node.frontmatter.date }</small>
-                      <br />
+                     <p> { post.node.excerpt }</p>
                     <Link className="text-sm text-blue-400" to={post.node.frontmatter.path}>Read more</Link>
                 </div>
               ))}
@@ -41,6 +41,7 @@ export const pageQuery = graphql `
           edges {
             node {
               id
+              excerpt(format: PLAIN, pruneLength: 240)
               frontmatter {
                 author
                 date

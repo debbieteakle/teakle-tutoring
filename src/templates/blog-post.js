@@ -8,10 +8,8 @@ export default function Template({data}){
     return(
       <Layout>
         <div className="pt-8 sm:mx-20 mx-5 content-center">
-          <Link to="/blog">Go Back</Link>
-          <hr />
-          <h1 className="text-4xl">{post.frontmatter.title}</h1>
-          <h4 className="text-sm py-4">{post.frontmatter.author} on {post.frontmatter.date}</h4>
+          <h1 className="text-2xl">{post.frontmatter.title}</h1>
+          <p className="text-sm py-4">{post.frontmatter.author} on {post.frontmatter.date}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html}} />
         </div>
       </Layout>
