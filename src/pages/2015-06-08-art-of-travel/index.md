@@ -13,4 +13,4 @@ He’s easy to read too – witty, insightful and thought-provoking. Like any go
 
 But why does he write about travel and how does he use language to represent his thoughts and ideas?
 
-<https://www.youtube.com/embed/kETN114A4IE>
+YouTube video: [Alain de Botton: The Art of Travel](https://www.youtube.com/embed/kETN114A4IE )

@@ -24,7 +24,7 @@ export const postQuery = graphql `
         path
         title 
         author
-        date
+        date (formatString: "DD MMMM, YYYY")
       }
     }
   }
