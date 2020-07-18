@@ -1,10 +1,13 @@
 import React from "react"
 import { FaQuoteRight } from 'react-icons/fa';
+import { Link } from "gatsby"
+import Button from "./button.js"
 
 const Testimonials = () => {
 	return (
 		<section className="pt-4">
 			<h1 className="text-center text-2xl">HSC Student Testimonials</h1>
+			<p className="text-center">This is what my students have to say about me...</p>
 			<div className="flex flex-wrap justify-center">
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
@@ -70,6 +73,14 @@ const Testimonials = () => {
 					<p className="italic font-bold mr-4 text-sm leading-tight">Nishesh</p>
 					<p className="text-sm">Georges River Grammar, HSC 2011</p>
 				</article>
+			</div>
+			<div className="align-middle">
+				<p className="text-center">Want to learn how Mathew can help you reach your HSC goals?</p>
+				<p className="text-center">
+					<Link to="/contact">
+					        <Button name="Enquire Now"/>
+					</Link>
+				</p>
 			</div>
 		</section>
 		);

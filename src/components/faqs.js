@@ -5,6 +5,8 @@ import { FaCalendarTimes} from 'react-icons/fa';
 import { FaUserFriends} from 'react-icons/fa';
 import { FaClock} from 'react-icons/fa';
 import { FaUserGraduate } from 'react-icons/fa';
+import { Link } from "gatsby"
+import Button from "./button.js"
 
 
 const FAQs = () => {
@@ -44,6 +46,14 @@ const FAQs = () => {
 					<h3>Are you a qualified teacher?</h3>
 					<p>I have a Bachelor of Arts/Bachelor of Education (English Literature) from the University of New South Wales.</p>
 				</article>
+			</div>
+			<div className="align-middle">
+				<p className="text-center">Have more questions?</p>
+				<p className="text-center">
+					<Link to="/contact">
+					        <Button name="Enquire Now"/>
+					</Link>
+				</p>
 			</div>
 		</section>
 		);

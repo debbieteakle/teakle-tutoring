@@ -1,6 +1,7 @@
 import React from "react"
 import { FaQuoteRight } from 'react-icons/fa';
 import { Link } from "gatsby"
+import Button from "./button.js"
 
 const RecentTestimonials = () => {
 	return (
@@ -42,7 +43,7 @@ const RecentTestimonials = () => {
 			</div>
 			<div className="call-to-action">
 				<Link to="/testimonials">
-					 <button className="button">Read All Testimonials</button>
+					 <Button name="Read All Testimonials"/>
 				</Link>
 			</div>
 		</section>
