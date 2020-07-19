@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import "../components/global.css"
 import Layout from "../components/layout.js"
-import { withPrefix, Link } from "gatsby"
+import { withPrefix } from "gatsby"
 
 
 const Countdown = () => {

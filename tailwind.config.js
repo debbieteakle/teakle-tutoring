@@ -11,4 +11,8 @@ module.exports = {
   },
   variants: {},
   plugins: [],
+  purge: {
+    enabled: true,
+    content: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
+  },
 }
