@@ -146,22 +146,22 @@ nav {
 	font-size: smaller;
 }*/
 
-.about-section {
+/*.about-section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding: 50px 10px 10px 10px;
 /*	background: #f5f5f5;*/
-	color: #666;
-}
+/*	color: #666;
+}*/
 
-.about-subsection {
+/*.about-subsection {
 	max-width: 500px;
 	padding: 30px;
 	flex-grow: 1;
-}
+}*/
 
-dl {
+/*dl {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -234,7 +234,7 @@ dt {
 
 .percentage-100:after {
   width: 100%;
-}
+}*/
 
 /*.work {
 	padding: 50px 10px 10px 10px;
