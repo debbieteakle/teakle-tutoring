@@ -12,8 +12,7 @@ const Countdown = () => {
 			          <meta charSet="utf-8" />
 			          <title>HSC Countdown to the 2020 Exams</title>
 			          <link rel="canonical" href="https://teakle.com.au/hsc-countdown" />
-			          <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
-			          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
+			          <meta name="description" content="Keep track of how many study days you have left until the HSC. With compliments from Mathew Teakle, HSC English tutor." />
 					<script src={withPrefix('countdownScript.js')} type="text/javascript" />
 				</Helmet>
 			  	<section className="h-screen bg-gray-300 pt-8 mx-auto align-middle text-center">
