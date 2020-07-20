@@ -2,6 +2,7 @@
 path: "/art-of-travel-module-c"
 date: "2015-06-08"
 title: "The Art of Travel - Module C Elective 2"
+featuredImage:
 author: "Mathew Teakle"
 ---
 

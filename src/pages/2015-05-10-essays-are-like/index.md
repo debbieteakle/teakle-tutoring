@@ -2,6 +2,7 @@
 path: "/essays-are-like"
 date: "2015-05-10"
 title: "Essays are Like Platypuses"
+featuredImage:
 author: "Mathew Teakle"
 ---
 
