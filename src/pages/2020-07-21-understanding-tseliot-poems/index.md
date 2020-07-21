@@ -1,6 +1,6 @@
 ---
 path: "/understanding-tseliot-poems"
-date: "2020-07-20"
+date: "2020-07-21"
 title: "Understanding TS Eliot Poems - History repeats"
 featuredImage: TSEliot-quote.jpg
 author: "Mathew Teakle"
