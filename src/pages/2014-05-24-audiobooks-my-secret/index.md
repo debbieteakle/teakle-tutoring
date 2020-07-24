@@ -3,6 +3,7 @@ path: "/audiobooks-my-secret"
 date: "2014-05-24"
 title: "Audiobooks – My Little Secret"
 featuredImage:
+featuredImage_alt:
 author: "Mathew Teakle"
 ---
 

@@ -3,6 +3,7 @@ path: "/SMH-quote"
 date: "2015-06-07"
 title: "In the news"
 featuredImage:
+featuredImage_alt:
 author: "Mathew Teakle"
 ---
 

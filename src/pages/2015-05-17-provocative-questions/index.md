@@ -2,6 +2,8 @@
 path: "/provocative-questions"
 date: "2015-05-17"
 title: "Provocative Questions…"
+featuredImage:
+featuredImage_alt:
 author: "Mathew Teakle"
 ---
 

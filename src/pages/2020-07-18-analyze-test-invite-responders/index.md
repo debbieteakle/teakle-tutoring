@@ -3,6 +3,7 @@ path: "/analyze-text-invite-responders"
 date: "2020-07-18"
 title: "When you analyse a text, remember to invite the ‘responders’"
 featuredImage:
+featuredImage_alt:
 author: "Mathew Teakle"
 ---
 
