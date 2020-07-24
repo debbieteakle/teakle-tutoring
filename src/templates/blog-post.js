@@ -15,7 +15,7 @@ export default function Template({data}){
           <h1 className="text-2xl">{post.frontmatter.title}</h1>
           <p className="text-sm py-4">{post.frontmatter.author} on {post.frontmatter.date}</p>
           <div className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-md">
-              {post.frontmatter.featuredImage && <Img fluid = {post.frontmatter.featuredImage.childImageSharp.fluid} />}
+              {post.frontmatter.featuredImage && <Img fluid = {post.frontmatter.featuredImage.childImageSharp.fluid} alt= {post.frontmatter.featuredImage_alt} />}
           </div>
           <div dangerouslySetInnerHTML={{ __html: post.html}} />
         </div>
@@ -39,6 +39,7 @@ export const postQuery = graphql `
               }
             }
           }
+        featuredImage_alt
       }
     }
   }
