@@ -16,7 +16,7 @@ const IndexPage = () => {
 		   	<Layout>
 		   		<Helmet>
 		          <meta charSet="utf-8" />
-		          <title>Mathew Teakle Tutoring | Online HSC English Tuition</title>
+		          <title>Mathew Teakle Tutoring | Online HSC English Tuition, Sydney</title>
 		          <link rel="canonical" href="https://teakle.com.au" />
 		          <meta name="keywords" content="Find a Tutor, English Tutor, English Teacher, 
 		          Private Tutor English, Online Teacher English, Private English Teacher, HSC English Tutor, 

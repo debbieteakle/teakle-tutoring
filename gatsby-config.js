@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: `Mathew Teakle Sydney HSC English Tutor`,
     siteUrl: `https://www.teakle.com.au`,
-    description: `Online High School HSC English tutoring`,
+    description: `Online High School HSC English tutoring, Sydney`,
   },
 
   plugins: [
