@@ -41,15 +41,16 @@ nav {
 	text-align: center;
 }*/
 
-.header-background {
+/*.header-background {
 	display: flex;
 	flex-wrap: wrap;
-}
+}*/
 
 .header-title, .header-profile {
+  /*profile image appears only with a min-width*/
 	min-width: 300px;
-	margin: 20px auto 0px;
-	text-align: center;
+/*	margin: 20px auto 0px;
+	text-align: center;*/
 }
 
 /*.header-profile {

@@ -5,6 +5,17 @@ import Img from "gatsby-image"
 import BackgroundImage from "gatsby-background-image"
 import Button from "./button.js"
 
+// .header-background {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// }
+
+// .header-title, .header-profile {
+// 	min-width: 300px;
+// 	margin: 20px auto 0px;
+// 	text-align: center;
+// }
+
 
 const Header = () => {
 	const data = useStaticQuery(graphql`
@@ -31,8 +42,8 @@ const Header = () => {
 
 	return (
 			<header className="bg-gray-800	text-white">
-				<BackgroundImage className="header-background" fluid={data.background.childImageSharp.fluid}>
-				    <div className="header-title">	
+				<BackgroundImage className="flex flex-wrap" fluid={data.background.childImageSharp.fluid}>
+				    <div className="header-title text-center mt-5 mx-auto mb-0">	
 					    <h1 className="text-4xl">Mathew Teakle</h1>
 					    <h2 className="text-2xl">Sydney HSC English Tutor</h2>
 						<p className="text-lg p-6">Available Sunday - Friday  |  Online or In Person</p>
@@ -40,7 +51,7 @@ const Header = () => {
 					        <Button name="Enquire Now"/>
 					    </Link>
 					</div>
-					<div className="header-profile">
+					<div className="header-profile text-center mt-5 mx-auto mb-0">
 					 	<Img className="profile" fluid={data.profile.childImageSharp.fluid} />
 					</div>
 			    </BackgroundImage>
