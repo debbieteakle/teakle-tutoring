@@ -1,10 +1,9 @@
 import React from "react"
 
-
 const Footer = () => {
 	return (
-		<footer className="global-footer">
-			<p>Website by Debbie Teakle</p>
+		<footer className="bg-gray-800 global-footer text-gray-500 text-center">
+			<p>&copy; {new Date().getFullYear()} Website by <a href="https://au.linkedin.com/in/debbieteakle">Debbie Teakle</a></p>  
 		</footer>
 		);
 }

@@ -19,7 +19,7 @@ const BlogPage = ({data}) => {
               He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
               <meta name="google-site-verification" content="pIfTVRhYnx_exObArZVnORzf_3KokccntYBpdYTqUzo" />
             </Helmet>
-          <div className="pt-8 sm:mx-20 mx-5 content-center">
+          <main className="flex-grow pt-8 sm:mx-20 mx-5 content-center" role="main">
             <h1 className="text-4xl">Latest Posts</h1>
             {data.allMarkdownRemark.edges.map(post => (
                 <div className="my-10" key = {post.node.id}>
@@ -30,7 +30,7 @@ const BlogPage = ({data}) => {
                     <Link className="text-sm text-blue-400" to={post.node.frontmatter.path}>Read more</Link>
                 </div>
               ))}
-          </div>         
+          </main>         
         </Layout> 
     );
 }

@@ -25,12 +25,14 @@ const IndexPage = () => {
 		          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
 		          <meta name="google-site-verification" content="pIfTVRhYnx_exObArZVnORzf_3KokccntYBpdYTqUzo" />
 		        </Helmet>
-			    <Header />
-			    <Enrolments />
-			    <Credentials />
-		   		<RecentTestimonials />
-		   		<About />
-		   		<FAQs />
+		        <main className="flex-grow" role="main">
+				    <Header />
+				    <Enrolments />
+				    <Credentials />
+			   		<RecentTestimonials />
+			   		<About />
+			   		<FAQs />
+		   		</main>
 		  	</Layout>	
 		);
 }

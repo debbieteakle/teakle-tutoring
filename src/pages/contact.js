@@ -14,7 +14,9 @@ const ContactPage = () => (
 		          of tutoring experience. He provides private English tuition online to students all over NSW. 
 		          Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
 		</Helmet>
-		<ContactForm />
+		<main className="flex-grow" role="main">
+			<ContactForm />
+		</main>
 	</Layout>
 )
 export default ContactPage;

@@ -15,7 +15,7 @@ const Countdown = () => {
 			          <meta name="description" content="Keep track of how many study days you have left until the HSC. With compliments from Mathew Teakle, HSC English tutor." />
 					<script src={withPrefix('countdownScript.js')} type="text/javascript" />
 				</Helmet>
-			  	<section className="h-screen bg-gray-300 pt-8 mx-auto align-middle text-center">
+			  	<main className="flex-grow h-screen bg-gray-300 pt-8 mx-auto align-middle text-center" role="main">
 					<h1 className="text-4xl">HSC Exam Countdown, 2020</h1>
 						<div className="container mt-12 mx-auto">						  
 						    <p className="my-5"><span className="font-bold bg-blue-400 text-6xl p-10 rounded-lg" id="daysLeft"></span></p>	
@@ -23,7 +23,7 @@ const Countdown = () => {
 						    <p>Day 1 of the HSC is Tuesday 20 October 2020</p>
 						    <p className="pt-10 text-2xl">You got this!</p>
 						</div>			
-				</section>
+				</main>
 
 
 		  	</Layout>	

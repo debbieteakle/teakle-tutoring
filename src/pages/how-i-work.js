@@ -15,7 +15,7 @@ const WorkPage = () => {
 		          <meta name="description" content="Mathew Teakle is a qualified English teacher with 20 years of tutoring experience. 
 		          He provides private English tuition online to students all over NSW. Pay week by week or by term. Contact Mathew to discuss your English tutoring needs." />
 				</Helmet>
-			  	<section className="pt-8 sm:mx-20 mx-5 content-center ">
+				<main className="flex-grow pt-8 sm:mx-20 mx-5 content-center" role="main">
 					<h1 className="text-4xl">How I Work</h1>
 						<article className="py-4">
 							<h2 className="text-xl">Initial consultation</h2>
@@ -46,8 +46,7 @@ const WorkPage = () => {
 						<article>
 							<p>Read what Mat&#39;s students <Link to="/testimonials">have to say.</Link></p>
 						</article>
-				</section>
-
+				</main>
 		  	</Layout>	
 		);
 }

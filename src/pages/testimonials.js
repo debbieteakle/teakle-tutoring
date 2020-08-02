@@ -14,10 +14,11 @@ const TestimonialsPage = () => {
 		          <link rel="canonical" href="https://teakle.com.au/testimonials" />
 		          <meta name="description" content="Read what HSC English students have to say about Mathew's High School English tuition after getting their HSC results." />
 				</Helmet>
-			  	<section className="testimonials">
-					<Testimonials />
-				</section>
-
+				<main className="flex-grow pt-8 sm:mx-20 mx-5 content-center" role="main">
+				  	<section className="testimonials">
+						<Testimonials />
+					</section>
+				</main>
 		  	</Layout>	
 		);
 }
