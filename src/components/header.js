@@ -28,7 +28,7 @@ const Header = () => {
 			      }
 			    }
   			},
-  			profile: file(relativePath: {eq: "mat-teakle-sydney-english-tutor.png"}) {
+  			profile: file(relativePath: {eq: "TeakleTutoringLogo-square-600.jpg"}) {
 			    id
 			    childImageSharp {
 			      fluid(maxWidth: 750) {
@@ -43,16 +43,17 @@ const Header = () => {
 	return (
 			<header className="bg-gray-800	text-white">
 				<BackgroundImage className="flex flex-wrap" fluid={data.background.childImageSharp.fluid}>
-				    <div className="header-title text-center mt-5 mx-auto mb-0">	
+				    
+					<div className="header-profile text-center mt-5 mx-auto mb-0">
+					 	<Img className="profile" fluid={data.profile.childImageSharp.fluid} />
+					</div>
+					<div className="header-title text-center mt-5 mx-auto mb-0">	
 					    <h1 className="text-4xl">Mathew Teakle</h1>
 					    <h2 className="text-2xl">Sydney HSC English Tutor</h2>
 						<p className="text-lg p-6">Available Sunday - Friday  |  Online or In Person</p>
 						<Link to="/contact">
 					        <Button name="Enquire Now"/>
 					    </Link>
-					</div>
-					<div className="header-profile text-center mt-5 mx-auto mb-0">
-					 	<Img className="profile" fluid={data.profile.childImageSharp.fluid} />
 					</div>
 			    </BackgroundImage>
 		    </header>
