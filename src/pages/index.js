@@ -7,6 +7,7 @@ import Credentials from "../components/credentials.js"
 import RecentTestimonials from "../components/recent-testimonials.js"
 import About from "../components/about.js"
 import FAQs from "../components/faqs.js"
+import SocialMediaFollow from "../components/social-media-follow.js"
 import Layout from "../components/layout"
 
 
@@ -32,6 +33,7 @@ const IndexPage = () => {
 			   		<RecentTestimonials />
 			   		<About />
 			   		<FAQs />
+			   		<SocialMediaFollow />
 		   		</main>
 		  	</Layout>	
 		);

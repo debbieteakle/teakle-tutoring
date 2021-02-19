@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import "../components/global.css"
 import Layout from "../components/layout.js"
 import ContactForm from "../components/contact-form.js"
+import SocialMediaFollow from "../components/social-media-follow.js"
 
 const ContactPage = () => (
   	<Layout>
@@ -17,6 +18,7 @@ const ContactPage = () => (
 		<main className="flex-grow" role="main">
 			<ContactForm />
 		</main>
+		<SocialMediaFollow />
 	</Layout>
 )
 export default ContactPage;

@@ -19,7 +19,7 @@ const ContactForm = () => {
 		`)
 
 	return (
-		<section className="contact-form-section">
+		<section className="contact-form-section pb-4">
 
 			<div className="contact-form">
 			<h1 className="text-center text-2xl py-4">Contact Mathew about English Tuition</h1>
