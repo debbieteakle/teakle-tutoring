@@ -6,39 +6,70 @@ import Button from "./button.js"
 const RecentTestimonials = () => {
 	return (
 		<section className="pt-4">
-			<h2 className="text-center text-2xl">HSC Student Testimonials</h2>
+			<h2 className="text-center text-2xl">HSC 2020 Student Testimonials</h2>
 			<div className="flex flex-wrap justify-center">
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
-					<div className="testimonial-description">Learning English from you has both boosted my confidence and my understanding of English. 
-					Before, I was unsure of what I was doing or how to make sense of the new English syllabus, but after I learnt from you, I had a whole different perspective on
-					 how to attack texts and create more cohesive essays. You later gave me tools to analyse not only text for exams, but how these can be applied to the real world 
-					 and the implications it has. And for that I am very thankful.</div>
-					<p className="italic font-bold mr-4 text-sm leading-tight">Venkat</p>
-					<p className="text-sm">St Francis Xavier’s College, Hamilton, HSC 2019</p>
+					<div className="testimonial-description">
+						Mat was my tutor through all of Year 12 and he helped improve my marks dramatically.
+						He knows the syllabuses and texts thoroughly and knows the different ways to answer
+						tricky questions and please the markers! His lessons are lighthearted and easy to
+						digest. Thanks, Mat, for being a great teacher!
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Dom D</p>
+					<p className="text-sm">Hornsby, HSC 2020</p>
 				</article>
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
-					<div className="testimonial-description">Mat was my tutor for years 11 and 12 and it was one of the best decisions I made. He helped improve my English skills so much. 
-					His wealth of knowledge made me really appreciate the nature of this subject. 
-					I ended up with a Band 5 overall and English was my top mark which I couldn’t be happier about. I definitely recommend Mat to anyone who needs an extra boost with their English!</div>
-					<p className="italic font-bold mr-4 text-sm leading-tight">Stella</p>
-					<p className="text-sm">Tamworth, HSC 2019</p>
+					<div className="testimonial-description">
+						Honestly, the best English tutor you will find. It is guaranteed Mat will help you improve your
+						skills considerably in any period of time.
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Mebin L</p>
+					<p className="text-sm">Newcastle, HSC 2020</p>
 				</article>
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
-					<div className="testimonial-description">… thank you for your help with English. I really appreciate the effort you put in and I’ll be sure to recommend you to other students if that’s okay with you!</div>
-					<p className="italic font-bold mr-4 text-sm leading-tight">Annie</p>
-					<p className="text-sm">Tara Anglican School for Girls, HSC 2018</p>
+					<div className="testimonial-description">
+						Mat was my English tutor for year 12. I began tutoring just before the trial exams, and in the 
+						time between the trials and the hsc I noticed a significant improvement in my ability to interpret 
+						stimulus myself. Mat’s tutoring sessions are very well planned and allowed me to focus on specific 
+						areas I needed to improve on. I would 100% recommend Mat as an English tutor, as he helped me a 
+						lot to achieve the best I could for the hsc English exams.
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Benjamin R</p>
+					<p className="text-sm">Sydney, HSC 2020</p>
 				</article>
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
-					<div className="testimonial-description">Hi Mat! First of all I'd like to thank myself for choosing you as my English tutor for three years. My decision was an excellent one and without it, 
-					I would have chosen a lesser tutor. I'd also like to thank my parents for having me in the first place so I could grow up to choose a great tutor and get a band 6 for English Advanced.
-					I'm now studying Economics and my confidence in writing and speaking is indeed a valuable asset! 
-					Oh and I should also say thanks to Mat!</div>
-					<p className="italic font-bold mr-4 text-sm leading-tight">Kevin</p>
-					<p className="text-sm">Sydney, HSC 2017</p>
+					<div className="testimonial-description">
+						Best English tutor out there! He helped pull my grades out of the ditch and truely
+						appreciate English and literature. Thanks mat for all of the help!
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Shelby N</p>
+					<p className="text-sm">Sydney Grammar, HSC 2020</p>
+				</article>
+				<article className="testimonial p-8 bg-gray-200">
+					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
+					<div className="testimonial-description">
+						Mat is an incredible English tutor and has been supporting me in my learning for 5 years and 
+						most of my high school period. He genuinely loves English and teaching his students, and that 
+						comes across so clearly in our weekly lessons. Every lesson we had was different and exciting 
+						with new content, skills or practice exercises and unseen texts. Mat helped me greatly improve 
+						my essay writing which was so helpful when I studied the International Baccalaureate (IB). 
+						I would especially like to acknowledge and appreciate his willingness to explore a completely 
+						different course, the IB, despite his focus on HSC in his other students. Mat always ensured 
+						that he knew my texts well, even with some very obscure novels, and continually challenged me 
+						to develop new and fresh readings of the texts. He also supplemented my own ideas with unique 
+						thoughts of his own, which never ceased to provoke interesting conversations about different 
+						perspectives on the texts. I cannot recommend Mat enough, not only in his skill and expertise 
+						in English, but also for his friendly and laid-back character. I strongly believe that all 
+						students would greatly benefit from Mat's teaching. With Mat's incredible guidance and advice, 
+						I am proud to say that I have achieved the highest grade in English Higher Level for my final 
+						exams, and placed first in my cohort in the subject. Thank you so much Mat!
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Emily S</p>
+					<p className="text-sm">International Baccalaureate, Sydney 2020</p>
 				</article>
 			</div>
 			<div className="call-to-action">

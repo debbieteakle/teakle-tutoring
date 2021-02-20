@@ -34,6 +34,15 @@ const Testimonials = () => {
 				</article>
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
+					<div className="testimonial-description">
+						Mat's got a great teaching style and helped nurture my love for English! He definitely
+						goes above and beyond.
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Perry</p>
+					<p className="text-sm">Sydney Grammar, HSC 2018</p>
+				</article>
+				<article className="testimonial p-8 bg-gray-200">
+					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
 					<div className="testimonial-description">Hi Mat! First of all I'd like to thank myself for choosing you as my English tutor for three years. My decision was an excellent one and without it, 
 					I would have chosen a lesser tutor. I'd also like to thank my parents for having me in the first place so I could grow up to choose a great tutor and get a band 6 for English Advanced.
 					I'm now studying Economics and my confidence in writing and speaking is indeed a valuable asset! 
@@ -49,6 +58,17 @@ const Testimonials = () => {
 					completely changed because of him. Definitely recommend!</div>
 					<p className="italic font-bold mr-4 text-sm leading-tight">Bec</p>
 					<p className="text-sm">Riverside Girls High, HSC 2017</p>
+				</article>
+				<article className="testimonial p-8 bg-gray-200">
+					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
+					<div className="testimonial-description">
+						Mat is a great teacher, and always gave me exceptionally clear and direct guidance in my
+						English work. He explains things in a straightfoward manner, and helped me rationalise
+						and make sense of several texts and the relevant concepts within them, as well as developing
+						clarity in my own writing. I thank him for all his work and cannot recommend him enough!
+					</div>
+					<p className="italic font-bold mr-4 text-sm leading-tight">Nicholas D</p>
+					<p className="text-sm">Conservatorium High,Sydney, HSC 2016</p>
 				</article>
 				<article className="testimonial p-8 bg-gray-200">
 					<span className="testimonial-icon bg-gray-200"><FaQuoteRight /></span>
