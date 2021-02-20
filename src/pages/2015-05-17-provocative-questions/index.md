@@ -2,8 +2,8 @@
 path: "/provocative-questions"
 date: "2015-05-17"
 title: "Provocative Questions…"
-featuredImage:
-featuredImage_alt:
+featuredImage: bullfight.jpg
+featuredImage_alt: "matador and bull"
 author: "Mathew Teakle"
 ---
 

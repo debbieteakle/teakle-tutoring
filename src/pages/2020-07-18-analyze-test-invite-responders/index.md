@@ -2,8 +2,8 @@
 path: "/analyze-text-invite-responders"
 date: "2020-07-18"
 title: "When you analyse a text, remember to invite the ‘responders’"
-featuredImage:
-featuredImage_alt:
+featuredImage: reader.jpg
+featuredImage_alt: "person reading a book"
 author: "Mathew Teakle"
 ---
 

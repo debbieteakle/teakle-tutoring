@@ -2,8 +2,8 @@
 path: "/essays-be-bold"
 date: "2015-05-03"
 title: "Essays – It Pays to be Bold"
-featuredImage:
-featuredImage_alt:
+featuredImage: be-bold.jpg
+featuredImage_alt: "rock climber"
 author: "Mathew Teakle"
 ---
 

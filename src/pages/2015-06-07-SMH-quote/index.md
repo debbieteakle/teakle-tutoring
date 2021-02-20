@@ -2,8 +2,8 @@
 path: "/SMH-quote"
 date: "2015-06-07"
 title: "In the news"
-featuredImage:
-featuredImage_alt:
+featuredImage: newspaper.jpg
+featuredImage_alt: "person reading newspaper"
 author: "Mathew Teakle"
 ---
 

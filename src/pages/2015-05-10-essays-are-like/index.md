@@ -2,8 +2,8 @@
 path: "/essays-are-like"
 date: "2015-05-10"
 title: "Essays are Like Platypuses"
-featuredImage:
-featuredImage_alt:
+featuredImage: platypus.jpg
+featuredImage_alt: "swimming platypus"
 author: "Mathew Teakle"
 ---
 

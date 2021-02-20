@@ -2,8 +2,8 @@
 path: "/art-of-travel-module-c"
 date: "2015-06-08"
 title: "The Art of Travel - Module C Elective 2"
-featuredImage:
-featuredImage_alt:
+featuredImage: travel-map.jpg
+featuredImage_alt: "world map, camera and passport"
 author: "Mathew Teakle"
 ---
 
