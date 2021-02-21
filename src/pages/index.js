@@ -4,15 +4,17 @@ import "../components/global.css"
 import Header from "../components/header.js"
 import Enrolments from "../components/enrolments.js"
 import Credentials from "../components/credentials.js"
-import RecentTestimonials from "../components/recent-testimonials.js"
 import About from "../components/about.js"
 import FAQs from "../components/faqs.js"
 import SocialMediaFollow from "../components/social-media-follow.js"
 import Layout from "../components/layout"
+import { graphql } from 'gatsby'
+import { FaQuoteLeft } from 'react-icons/fa';
+import { Link } from "gatsby"
+import Button from "../components/button.js"
 
 
-
-const IndexPage = () => {
+const IndexPage = ({data}) => {
 	return (		
 		   	<Layout>
 		   		<Helmet>
@@ -30,7 +32,27 @@ const IndexPage = () => {
 				    <Header />
 				    <Enrolments />
 				    <Credentials />
-			   		<RecentTestimonials />
+				    <div><h1 className="text-2xl pt-4 text-center">HSC Student Testimonials</h1></div>
+			   		<div className="flex flex-wrap justify-center">
+
+			   			{data.allMarkdownRemark.edges.map(testimonial => (
+			                
+			                <article className="testimonial p-8 bg-gray-200" key = {testimonial.node.id} >
+			                    <FaQuoteLeft />
+			                    <div dangerouslySetInnerHTML={{ __html: testimonial.node.html}} />
+			                    <h2 className="text-sm italic font-bold mr-4 leading-tight"><Link to={testimonial.node.frontmatter.path}>{testimonial.node.frontmatter.author}</Link></h2>
+			                    <small>{ testimonial.node.frontmatter.location }, {'  '}
+			                      { testimonial.node.frontmatter.studytype }{'  '}{ testimonial.node.frontmatter.year }</small>
+			                </article>
+			                
+              			))}
+
+			   		</div>
+			   			<div className="call-to-action">
+							<Link to="/testimonials">
+					 			<Button name="Read All Testimonials"/>
+							</Link>
+						</div>
 			   		<About />
 			   		<FAQs />
 			   		<SocialMediaFollow />
@@ -38,5 +60,27 @@ const IndexPage = () => {
 		  	</Layout>	
 		);
 }
+
+export const testimonialQuery = graphql `
+  query RecentTestimonialQuery {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/testimonials/"}, frontmatter: {year: {eq: "2020"}}}) {
+    edges {
+      node {
+        frontmatter {
+          studytype
+          year
+          author
+          location
+          path
+        }
+        id
+        html
+      }
+    }
+  }
+}
+
+
+`
 export default IndexPage
 

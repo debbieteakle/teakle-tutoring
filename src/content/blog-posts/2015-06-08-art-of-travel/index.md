@@ -5,6 +5,7 @@ title: "The Art of Travel - Module C Elective 2"
 featuredImage: travel-map.jpg
 featuredImage_alt: "world map, camera and passport"
 author: "Mathew Teakle"
+posttype: "blog-post"
 ---
 
 If you’re doing Module C Elective 2 then you’ll need to think about Alain de Botton. This guy has read a lot of books and knows just about everything there is to know about the most obscure philosophers/thinkers/writers/dudes in Europe and beyond.

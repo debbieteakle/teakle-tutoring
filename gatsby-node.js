@@ -2,7 +2,8 @@ const path = require(`path`)
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-  const blogPostTemplate = path.resolve(`./src/templates/blog-post.js`)
+  const blogPostPage = path.resolve(`./src/templates/blog-post.js`)
+  const testimonialPostPage = path.resolve(`./src/templates/testimonial-post.js`)
   // Query for markdown nodes to use in creating pages.
   // You can query for whatever data you want to create pages for e.g.
   // products, portfolio items, landing pages, etc.
@@ -14,7 +15,9 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             frontmatter {
               path
+              posttype
             }
+            id
           }
         }
       }
@@ -26,11 +29,21 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Create blog post pages.
     result.data.allMarkdownRemark.edges.forEach(edge => {
-      createPage({
+      if (edge.node.frontmatter.posttype === 'testimonial'){
+        createPage ({
+          path: edge.node.frontmatter.path,
+          component: testimonialPostPage,
+          context: {
+            id: edge.node.id
+          }
+        })
+      } else {
+        createPage({
         // Path for this page — required
         path: edge.node.frontmatter.path,
-        component: blogPostTemplate,
+        component: blogPostPage,
         context: {
+          id: edge.node.id
           // Add optional context data to be inserted
           // as props into the page component..
           //
@@ -41,6 +54,8 @@ exports.createPages = ({ graphql, actions }) => {
           // argument.
         },
       })
+      }
+      
     })
   })
 }

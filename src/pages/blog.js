@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import "../components/global.css"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import { graphql } from 'gatsby'
 
 
 const BlogPage = ({data}) => {
@@ -37,21 +38,21 @@ const BlogPage = ({data}) => {
 
 export const pageQuery = graphql `
   query BlogIndexQuery {
-        allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }){
-          edges {
-            node {
-              id
-              excerpt(format: PLAIN, pruneLength: 240)
-              frontmatter {
-                author
-                date (formatString: "DD MMMM, YYYY")
-                path
-                title
-              }
-            }
-          }
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/blog-posts/"}}) {
+    edges {
+      node {
+        id
+        excerpt(pruneLength: 240, format: PLAIN)
+        frontmatter {
+          author
+          date(formatString: "DD MMMM, YYYY")
+          path
+          title
         }
+      }
+    }
   }
+}
 `
 
 

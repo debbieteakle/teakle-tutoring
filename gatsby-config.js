@@ -44,6 +44,20 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+        {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blog-posts`,
+        path: `${__dirname}/src/content/blog-posts`,
+      },
+    },
+        {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `testimonial`,
+        path: `${__dirname}/src/content/testimonials`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -72,6 +86,21 @@ module.exports = {
       },
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Oswald`,
+    //         variants: [`500`, `700`]
+    //       },
+    //       {
+    //         family: `Open Sans`,
+    //         variants: [`400`, `700`]
+    //       },
+    //     ],
+    //   },
+    // }
   ],
 }
 

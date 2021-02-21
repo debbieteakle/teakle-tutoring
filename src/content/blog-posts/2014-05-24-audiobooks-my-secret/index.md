@@ -5,6 +5,7 @@ title: "Audiobooks – My Little Secret"
 featuredImage: audiobooks.jpg
 featuredImage_alt: "person wearing headphones"
 author: "Mathew Teakle"
+posttype: "blog-post"
 ---
 
 As I’ve gotten busier, the time I have available to sit and read a book has rapidly diminished. I do however, spend a lot of time sitting in my car driving – hence my love for audiobooks. I download all my books from audible.com directly onto my iPhone and listen to them while I drive and while working out at the gym.

@@ -5,6 +5,7 @@ title: "When you analyse a text, remember to invite the ‘responders’"
 featuredImage: reader.jpg
 featuredImage_alt: "person reading a book"
 author: "Mathew Teakle"
+posttype: "blog-post"
 ---
 
 > **“He felt pity come and then go like looking into a house window from a moving train on a darkened night.”**

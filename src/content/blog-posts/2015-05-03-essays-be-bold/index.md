@@ -5,6 +5,7 @@ title: "Essays – It Pays to be Bold"
 featuredImage: be-bold.jpg
 featuredImage_alt: "rock climber"
 author: "Mathew Teakle"
+posttype: "blog-post"
 ---
 
 Hey there students of English!

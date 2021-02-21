@@ -5,6 +5,7 @@ title: "Provocative Questions…"
 featuredImage: bullfight.jpg
 featuredImage_alt: "matador and bull"
 author: "Mathew Teakle"
+posttype: "blog-post"
 ---
 
 Have you had the experience of hearing somebody give advice or an opinion on something they know nothing about? You knew they were wrong because you knew the truth. A friend once told me about a time when he was on a ferry in San Francisco and overheard a man talking about how he was training to be a pilot. As my friend listened, he realised this guy knew nothing about being a pilot at all. Most of what he had to say about pilot training and flying was so wrong that my friend concluded this guy had never even been in a cockpit. Even though my friend *was in fact a pilot with years of experience*, he held his tongue and smiled at the thought of challenging this guy in front of his spellbound audience. My friend had the knowledge to challenge this guy’s assertions about piloting – but was too polite to intervene. (A good idea – keyword: awkward.)

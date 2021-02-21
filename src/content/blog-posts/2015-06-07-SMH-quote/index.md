@@ -5,6 +5,7 @@ title: "In the news"
 featuredImage: newspaper.jpg
 featuredImage_alt: "person reading newspaper"
 author: "Mathew Teakle"
+posttype: "blog-post"
 ---
 
 In response to Sydney Morning Herald article: [Cheating ‘endemic’ in NSW high schools](https://web.archive.org/web/20190309162849/http://www.smh.com.au/national/education/cheating-endemic-in-nsw-high-schools-20150607-ggw8h9), June 7, 2015.
